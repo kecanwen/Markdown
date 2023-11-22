@@ -1,0 +1,15 @@
+在Google开发者工具的Performance面板中，"jsHeap"（JavaScript Heap）是指浏览器中用于分配和管理JavaScript对象的内存堆。它显示了JavaScript堆内存的使用情况和变化。
+
+JavaScript堆是一块内存区域，用于存储动态创建的JavaScript对象、变量和数据结构。每当您在代码中创建一个对象或变量时，浏览器会为其分配内存空间，并在不再需要时释放该内存。这个过程被称为垃圾回收。
+
+在Performance面板的jsHeap部分，您可以看到以下信息：
+
+1. Used Heap：表示当前已使用的JavaScript堆内存大小。它反映了当前页面中正在使用的JavaScript对象所占用的内存总量。
+
+2. Total Heap：表示可用的JavaScript堆内存总大小。这是浏览器为JavaScript对象分配的总内存限制。
+
+3. Live Objects：表示当前存在并仍然被引用的JavaScript对象数量。这些对象可能是页面上的DOM元素、JavaScript变量等。
+
+通过监视jsHeap，您可以了解页面中JavaScript对象的内存使用情况。如果Used Heap持续增长，而Total Heap没有相应增加，那么可能存在内存泄漏问题，即未释放不再使用的对象导致内存占用过高。这种情况下，您可能需要检查代码，确保适时释放不再需要的对象，以避免内存泄漏和性能问题。
+
+总结起来，Performance面板中的jsHeap提供了有关JavaScript堆内存使用情况的信息，帮助您监测和优化页面的内存消耗。
