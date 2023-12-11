@@ -15,7 +15,7 @@ http://www.pingtaimeng.com/article/detail/id/2120080
 **跨域资源共享(CORS) `Access-Control-Allow-Origin`**
 
 https://zhuanlan.zhihu.com/p/410621052
-		**使用H5 manifest属性缓存资源**
+**使用H5 manifest属性缓存资源**
 
 https://blog.csdn.net/m0_37631322/article/details/88746974
 
