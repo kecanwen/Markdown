@@ -1,0 +1,1 @@
+compilier对象代表了完整的webpack环境配置。这个对象在启动webpack时被一次性建立，并配置好所有可操作的配置，包括options、loader、plugin
